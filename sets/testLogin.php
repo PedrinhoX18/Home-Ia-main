@@ -16,15 +16,9 @@ if (isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha']
         unset($_SESSION['senha']);
         header('Location: ./register.php');
     } else {
-        if ($email === 'admin@gmail.com' || $senha === 'admin134') {
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
             header('Location: ./admin.php');
-        } else {
-            $_SESSION['email'] = $email;
-            $_SESSION['senha'] = $senha;
-            header('Location: ./about.php');
-        }
     }
 }
 ?>
