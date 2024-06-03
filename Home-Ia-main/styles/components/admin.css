@@ -1,0 +1,189 @@
+/* Admin body background */
+.admin-body {
+  display: flex;
+  align-items: center;
+  background: var(--light-background)
+    url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+    calc(60% + 300px) -630px;
+}
+
+@media (min-width: 768px) {
+  .admin-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(-150% + 640px) -445px;
+  }
+}
+
+@media (min-width: 925px) {
+  .admin-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(-65% + 640px) -445px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .admin-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(-15% + 640px) -445px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .admin-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(18% + 640px) -445px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .admin-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(0% + 630px) -500px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .admin-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(25% + 630px) -500px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .admin-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(35% + 630px) -500px;
+  }
+}
+
+.admin-body header,
+.admin-body h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #425d74;
+  font-family: "DM Serif Display";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 186.667% */
+  letter-spacing: -0.431px;
+}
+
+#clients-config {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background: #1b262f;
+  padding: 20px;
+  gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#clients-config h1 {
+  color: white;
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 16px;
+  background: rgba(54, 83, 107, 0.62);
+  width: 1024px;
+  height: 60px;
+}
+
+.clients h1 {
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.115px;
+  margin: 0px;
+}
+
+.clients img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+}
+
+.header-space {
+  display: flex;
+  gap: 20px;
+  margin: 50px;
+}
+
+.clients-p {
+  color: #639c06;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 62.5% */
+  letter-spacing: -0.115px;
+}   
+
+.search {
+  width: 315px;
+  display: flex;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid rgba(54, 83, 107, 0.62);
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  background-color: rgba(54, 83, 107, 0.62);
+}
+
+.search ::placeholder {
+    color: #FFF;
+font-family: "Public Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.115px;
+}
+
+.searchButton {
+  width: 40px;
+  height: 50px;
+  border: 1px solid rgba(54, 83, 107, 0.62);
+  background: rgba(54, 83, 107, 0.62);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+

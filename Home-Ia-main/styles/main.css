@@ -1,0 +1,109 @@
+@import url("reset.css");
+@import url("config.css");
+@import url("utilities.css");
+@import url("./components/button.css");
+@import url("./components/input.css");
+@import url("./components/navigation.css");
+@import url("./components/hero.css");
+@import url("./components/references.css");
+@import url("./components/easy.css");
+@import url("./components/simple.css");
+@import url("./components/benefits.css");
+@import url("./components/ready.css");
+@import url("./components/footer.css");
+@import url("./components/pricing.css");
+@import url("./components/about.css");
+@import url("./components/contact.css");
+@import url("./components/admin.css");
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--light-background);
+  font-family: var(--font-public-sans);
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  line-height: var(--line-height-body);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-public-sans);
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* header background pattern */
+.index-body {
+  background: var(--light-background)
+    url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat center -30rem;
+}
+
+@media (min-width: 768px) {
+  .index-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat center -48rem;
+    background-size: 150%;
+  }
+}
+
+@media (min-width: 830px) {
+  .index-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat center -60rem;
+    background-size: 150%;
+  }
+}
+
+@media (min-width: 992px) {
+  .index-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat center -68rem;
+    background-size: 150%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .index-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(67% + 425px) -10rem;
+  }
+}
+
+/* Main background pattern */
+@media (min-width: 1200px) {
+  .main {
+    background: url("../../assets/shared/desktop/bg-pattern-circle.svg")
+      no-repeat calc(120% + 425px) 940px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .main {
+    background: url("../../assets/shared/desktop/bg-pattern-circle.svg")
+      no-repeat calc(106% + 425px) 940px;
+  }
+}

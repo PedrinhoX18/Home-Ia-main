@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap");
+:root {
+  /* Font Family */
+  --font-dm-serif: "DM Serif Display", serif;
+  --font-public-sans: "Public Sans", sans-serif;
+
+  /* Font sizes */
+  --font-body: 1rem; /* 16px */
+  --font-h1-large: 4.5rem; /* 72px */
+  --font-h1: 3.5rem; /* 56px */
+  --font-h2: 3rem; /* 48px */
+  --font-h3-large: 2.25rem; /* 36px */
+  --font-h3: 1.125rem; /* 18px */
+  --font-h4: 1.5rem; /* 24px */
+
+  /* Line heights */
+  --line-height-body: 1.75rem; /* 28px */
+  --line-height-h1-large: 4.5rem; /* 72px */
+  --line-height-h2: 3.5rem; /* 56px */
+  --line-height-h3-large: 2.5rem; /* 40px */
+  --line-height-h3: 1.5rem; /* 24px */
+  --line-height-h4: 2.25rem; /* 36px */
+  --line-height-h4-small: 2rem; /* 32px */
+
+  /* Basic spacing */
+  --spacing-xs: 1.5rem; /* 24px */
+  --spacing-sm: 2rem; /* 32px */
+  --spacing-md: 2.5rem; /* 40px */
+  --spacing-lg: 3rem; /* 48px */
+  --spacing-xl: 3.75rem; /* 60px */
+  --spacing-2xl: 5rem; /* 80px */
+  --section-padding: 6.25rem; /* 100px */
+  --section-margin: 9.375rem; /* 150px */
+
+  /* Screen sizes */
+  --screen-xs: 300px;
+  --screen-sm: 576px;
+  --screen-md: 768px;
+  --screen-lg: 992px;
+  --screen-xl: 1200px;
+
+  /* Primary color */
+  --primary: #639c06;
+  --primary-accent: #939bf4;
+  --secondary: #36536b;
+  /* Text */
+  --dark-text: #36536b;
+  --light-text: #fbfcfe;
+  --accent-text: #6c8294;
+  --faded-text: #b9bec2;
+  --faded-link-text: #657c8f;
+  --tertiary-text: #6d8395;
+  --faded-heading-text: #647b8e;
+  --input-placeholder: rgba(54, 83, 107, 0.5);
+  /* Backgrounds */
+  --dark-background: #1b262f;
+  --light-background: #edf3f8;
+  /* Buttons */
+  --primary-button-background: #639c06;
+  --primary-button-hover: rgba(99, 156, 6, 0.66);
+  --primary-button-disabled: #639c06;
+  --secondary-button-background: #edf3f8;
+  --secondary-button-text: #ffffff;
+  --secondary-button-background-hover: #ffffff;
+  --secondary-button-hover-text: #1b262f;
+  --secondary-button-disabled: #fbfcfe;
+  --dark-button-text: #36536b;
+  --dark-button-background-hover: #36536b;
+  --dark-button-hover-text: #ffffff;
+  --dark-button-disabled: #9aa9b5;
+  /* Checkbox */
+  --checkbox-background: #bfcbd5;
+  --checkbox-active-background: #639c06;
+  --checkbox-disabled-background: rgba(54, 83, 107, 0.05);
+  /* Other colors */
+  --tertiary: #6d8395;
+  --border-color: #bfcbd5;
+  --input-border-color: #92a3b1;
+  /* Error state */
+  --danger: #ff0000;
+  --danger-hover: #ff6976;
+  /* Success State */
+  --success: #258c53;
+  --success-hover: #7cba98;
+}

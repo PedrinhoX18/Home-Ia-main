@@ -1,0 +1,122 @@
+.homepage-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+@media (min-width: 768px) {
+  .homepage-hero__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .homepage-hero {
+    flex-direction: row-reverse;
+  }
+
+  .homepage-hero__left {
+    display: block;
+    flex: 2;
+  }
+}
+
+.homepage-hero__tagline {
+  font-size: var(--font-h3-large);
+  line-height: var(--line-height-h4);
+  color: var(--dark-text);
+  text-align: center;
+  margin-top: 0;
+  color: #36536b;
+  font-family: "DM Serif Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 100% */
+  letter-spacing: -0.554px;
+}
+
+@media (min-width: 768px) {
+  .homepage-hero__tagline {
+    font-size: var(--font-h2);
+    line-height: var(--line-height-h2);
+    max-width: 570px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .homepage-hero__tagline {
+    font-size: var(--font-h1-large);
+    line-height: var(--line-height-h1-large);
+    max-width: 575px;
+    text-align: left;
+  }
+}
+
+.homepage-hero__img {
+  width: 198px;
+  margin-left: 1.5rem;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .homepage-hero__img {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .homepage-hero__img {
+    width: 350px;
+  }
+}
+
+.hero-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 550px;
+}
+
+@media (min-width: 1200px) {
+  .hero-form {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-form__button {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    color: #fbfcfe;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
+  }
+}
+
+.hero-form__small {
+  font-size: 1rem;
+  color: var(--accent-text);
+  margin: 24px auto;
+}
+
+@media (min-width: 1200px) {
+  .hero-form__small {
+    margin: 24px 25px;
+  }
+}
+
+.hero-form__span {
+  font-weight: bold;
+}

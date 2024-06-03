@@ -1,0 +1,74 @@
+.button {
+  padding: 0.375rem 0.75rem;
+  background-color: transparent;
+  border: 1px solid transparent;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 24px;
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--light-text);
+  padding: 16px 26px;
+}
+
+.primary:hover {
+  background-color: var(--primary-button-hover);
+}
+
+.secondary {
+  background-color: transparent;
+  color: #fbfcfe;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.115px;
+  border: 1px solid var(--secondary-button-text);
+  padding: 16px 26px;
+  text-decoration: none;
+
+}
+
+.secondary:hover {
+  background-color: var(--secondary-button-background-hover);
+  color: var(--secondary-button-hover-text);
+}
+
+.secondary:hover {
+  background-color: var(--secondary-button-background-hover);
+  color: var(--secondary-button-hover-text);
+}
+
+.dark-button {
+  background-color: transparent;
+  color: var(--dark-button-text);
+  padding: 16px 26px;
+  border: 1px solid var(--dark-button-text);
+}
+
+.dark-button:hover {
+  background-color: var(--dark-button-background-hover);
+  color: var(--dark-button-hover-text);
+}
+
+.Loginbtn {
+  color: #fbfcfe;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.115px;
+  padding: 16px 26px;
+  text-decoration: none;
+  border-radius: 24px;
+  background: rgba(154, 178, 115, 1);
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}

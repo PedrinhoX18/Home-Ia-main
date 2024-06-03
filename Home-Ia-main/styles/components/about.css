@@ -1,0 +1,269 @@
+/* About body background */
+.about-body {
+  background: var(--light-background)
+    url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+    calc(60% + 300px) -630px;
+}
+
+@media (min-width: 768px) {
+  .about-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(-150% + 640px) -445px;
+  }
+}
+
+@media (min-width: 925px) {
+  .about-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(-65% + 640px) -445px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(-15% + 640px) -445px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .about-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(18% + 640px) -445px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(0% + 630px) -500px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(25% + 630px) -500px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .about-body {
+    background: var(--light-background)
+      url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
+      calc(35% + 630px) -500px;
+  }
+}
+
+.about-main {
+  text-align: center;
+}
+
+.about__heading {
+  color: #36536b;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 100% */
+  letter-spacing: -0.431px;
+}
+
+@media (min-width: 768px) {
+  .about__heading {
+    font-size: var(--font-h2);
+    line-height: var(--line-height-h2);
+    max-width: 600px;
+    margin: 0px auto var(--spacing-lg) auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about__heading {
+    font-size: var(--font-h1);
+    line-height: var(--line-height-h2);
+    max-width: 700px;
+    margin: 0px auto var(--spacing-xl) 0px;
+    text-align: left;
+  }
+}
+
+.about__business-img {
+  background-image: url("../../assets/about/mobile/image-team-members.jpg");
+  background-color: var(
+    --light-background
+  ); /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+@media (min-width: 768px) {
+  .about__business-img {
+    background-image: url("../../assets/about/tablet/image-team-members.jpg");
+    background-color: var(
+      --light-background
+    ); /* Used if the image is unavailable */
+    height: 275px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+}
+
+@media (min-width: 1200px) {
+  .about__business-img {
+    background-image: url("../../assets/about/desktop/image-team-members.jpg");
+    background-color: var(
+      --light-background
+    ); /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+}
+
+.our-vision,
+.our-culture {
+  margin-bottom: var(--spacing-lg);
+}
+
+@media (min-width: 1200px) {
+  .our-vision,
+  .our-culture,
+  .our-business,
+  .our-people {
+    margin-bottom: var(--spacing-xl);
+  }
+}
+
+@media (min-width: 768px) {
+  .our-vision,
+  .our-culture,
+  .our-business,
+  .our-people {
+    display: grid;
+    grid-template-columns: 1.5fr 2.75fr;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .our-vision,
+  .our-culture,
+  .our-business,
+  .our-people {
+    grid-template-columns: 1.5fr 2.25fr;
+  }
+}
+
+.our-vision__heading,
+.our-business__heading,
+.our-culture__heading,
+.our-people__heading {
+  margin-bottom: 16px;
+  color: #36536b;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.246px;
+}
+
+@media (min-width: 768px) {
+  .our-vision__heading,
+  .our-business__heading,
+  .our-culture__heading,
+  .our-people__heading {
+    font-size: var(--font-h3-large);
+    line-height: var(--line-height-h3-large);
+    margin-top: 16px;
+  }
+}
+
+.our-vision__description,
+.our-business__description,
+.our-culture__description,
+.our-people__description {
+  color: #6c8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+}
+
+.our-business__description {
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Team stats */
+.team-stats {
+  margin: var(--spacing-lg) 0px;
+  padding: var(--spacing-xs) 0px;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+@media (min-width: 768px) {
+  .team-stats {
+    margin: var(--spacing-lg) 0px;
+    padding: var(--spacing-xs) 0px;
+    border-top: none;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .team-stats__members,
+  .team-stats__offices,
+  .team-stats__transactions {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .team-stats__offices {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-stats {
+    text-align: left;
+  }
+
+  .team-stats__offices {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.team-stats__members-heading,
+.team-stats__offices-heading,
+.team-stats__transactions-heading {
+  font-size: var(--font-body);
+  line-height: var(--line-height-body);
+  font-weight: normal;
+  font-family: var(--font-dm-serif);
+  color: var(--tertiary-text);
+  margin-bottom: 0;
+}
+
+.team-stats__members-stat,
+.team-stats__offices-stat,
+.team-stats__transactions-stat {
+  font-size: var(--font-h1);
+  line-height: var(--line-height-h1-large);
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: var(--spacing-sm);
+}
